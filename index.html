@@ -1,26 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/cfbf8481bd.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
-            }
-          }
-        }
-      </script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
     <title>Tea House</title>
-</head>
-<body>
-    
-</body>
+  </head>
+
+  <body>
+    <main class="max-w-screen-xl px-16 lg:px-28">
+      <header class="flex pt-10 mb-20">
+        <div>
+          <h1 class="font-bold text-5xl md:text-7xl">It's good<br>Tea time at The<br>Tea House</h1><br>
+          <p class="text-gray-500 w-3/4">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+          <button class="bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 rounded-lg text-white font-bold">Explore More<i class="fa-solid fa-arrow-right pl-1 text-xl -rotate-45"></i></button>
+        </div>
+        <div class="relative">
+            <div>
+                <img class="w-full" src="images/banner.png" alt="">
+            </div>
+            <div class="flex items-center bg-white px-2 py-2 md:px-10 lg:py-4 rounded-lg shadow-lg absolute top-28 md:top-80 md:left-32 lg:left-28">
+                <div><i class="fa-solid fa-star text-2xl text-amber-500"></i></div>
+                <div class="ml-2">
+                    <h1 class="lg:text-2xl font-bold">5.00</h1>
+                    <p class="text-gray-500">Trust Pilot Ratings</p>
+                </div>
+            </div>
+
+        </div>
+      </header>
+    </main>
+  </body>
 </html>
