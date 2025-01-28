@@ -18,6 +18,9 @@
             colors: {
               clifford: "#da373d",
             },
+            fontFamily: {
+              manrope: ['Manrope', 'sans-serif'],
+            },
           },
         },
       };
@@ -25,7 +28,7 @@
     <title>Tea House</title>
   </head>
 
-  <body>
+  <body class="font-manrope">
     <main class="max-w-screen-xl px-16 lg:px-28">
       <header class="lg:flex pt-10 mb-20">
         <div>
@@ -199,5 +202,60 @@
       </section>
 
     </main>
+
+    <footer class="bg-orange-100 text-gray-700 py-10 px-4 md:px-16">
+      <div class="w-9/12 mx-auto">
+        <div class="mb-8 flex justify-between ">
+          <img class="mb-8" src="images/cup.png" alt="">
+          <div class="flex items-center gap-2">
+            <h4>Ready to get started?</h4>
+            <button class="bg-gradient-to-r from-orange-500 to-red-500 px-3 py-2 rounded-lg text-white font-bold">Get Started</button>
+          </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+          
+          <div>
+            <h3 class="font-semibold text-lg mb-3">Quick Links</h3>
+            <ul class="space-y-2">
+              <li><a class="hover:text-orange-600" href="#">Home</a></li>
+              <li><a class="hover:text-orange-600" href="#">About</a></li>
+              <li><a class="hover:text-orange-600" href="#">Insurance</a></li>
+              <li><a class="hover:text-orange-600" href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-semibold text-lg mb-3">Our Services</h3>
+            <ul class="space-y-2">
+              <li><a class="hover:text-orange-600" href="#">Life Insurance</a></li>
+              <li><a class="hover:text-orange-600" href="#">Car Insurance</a></li>
+              <li><a class="hover:text-orange-600" href="#">Health Insurance</a></li>
+              <li><a class="hover:text-orange-600" href="#">House Insurance</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-semibold text-lg mb-3">Helps</h3>
+            <ul class="space-y-2">
+              <li><a class="hover:text-orange-600" href="#">FAQs</a></li>
+              <li><a class="hover:text-orange-600" href="#">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-semibold text-lg mb-3">Subscribe to Our Newsletter</h3>
+            <div class="flex flex-col space-y-2">
+              <div>
+                <input type="text" placeholder="Email Address" class="bg-transparent border-b-2 border-black w-4/6 md:w-4/6">
+                <div class="w-7 h-7 bg-orange-600 inline-flex rounded-full justify-center items-center">
+                  <i class="fa-solid fa-chevron-right text-white"></i>
+                </div>
+                
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
